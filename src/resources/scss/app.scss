@@ -1,0 +1,9 @@
+@use 'variables' as var;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: var.$red-color;
+}

@@ -6,6 +6,8 @@ const { engine: handlebars } = require('express-handlebars'); // Sử dụng eng
 const app = express();
 const port = 3004;
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 // HTTP request logger
 app.use(morgan('combined'));
 
